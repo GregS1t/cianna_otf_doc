@@ -94,13 +94,13 @@ the client never controls execution directly and only interacts with the server 
 
 ## What CIANNA_OTF Is *Not*
 
-- It is **not** a real‑time inference API.
+- It is not suited for a full survey analysis.
 - It is **not** a training framework.
 - It does **not** aim to replace workflow managers or schedulers.
 
-CIANNA_OTF focuses on **efficient, asynchronous inference** for scientific use cases.
+CIANNA_OTF focuses on **efficient, asynchronous inference** for data inspection and visualisation.
 
-Unless you decide to install the full code (CIANNA + CIANNA_OTF_SERVER), you can't send hundreds (or more) requests to the server CIANNA_OTF. The current installation is not made for a full field analysis.
+> **WARNING** : In case you would like to perform predictions on a large dataset, we advise you to use CIANNA framework direclty on your computer/server with an appropriate hardware configuration.
 
 
 ---
